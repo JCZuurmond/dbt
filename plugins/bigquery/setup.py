@@ -47,7 +47,7 @@ setup(
     },
     install_requires=[
         'dbt-core=={}'.format(package_version),
-        'protobuf>=3.13.0,<4',
+        'protobuf>=3.13.0,<5',
         # These are more tightly pinned, as they have a track record of
         # breaking changes in minor releases.
         'google-cloud-core>=1.3.0,<1.5',
