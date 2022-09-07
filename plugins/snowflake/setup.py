@@ -52,7 +52,7 @@ setup(
         'azure-storage-blob>=12.0.0,<13.0.0',
         'urllib3>=1.20,<1.26.0',
         # this seems sufficiently broad
-        'cryptography>=3.2,<4',
+        'cryptography>=3.2,<39',
     ],
     zip_safe=False,
     classifiers=[
